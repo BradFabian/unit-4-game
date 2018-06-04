@@ -38,24 +38,37 @@ body {
     width: 80px;
     float: left;
 }
-#scoreText {
-    background-color: blue;
-}
-#totalScore {
-    background-color: blue;
-}
+
 
 #blueCrytsal {
-    clear: left;
+   
+    
     float: left;
 }
 #pinkCrystal {
-    clear: left;
+   
+    clear: right;
     float: left;
 }
 #purpleCrystal {
+   
+    clear: right;
     float: left;
 }
 #yellowCrytsal {
+   
+    clear: right;
     float: left;
+}
+#scoreText {
+    clear: both;
+    background-color: blue;
+    height: 30px;
+    width: 210px;
+}
+#totalScore {
+    background-color: blue;
+    margin-top: 10px;
+    height: 100px;
+    width: 210px;
 }
