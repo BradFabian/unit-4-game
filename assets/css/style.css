@@ -1,8 +1,9 @@
 body {
-    background-image: url("assets/images/wormz.png");
+    background-color: rgb(156, 118, 118);
+  
     z-index: -1;
-    height: 100%;
-    width: 100%;
+    background-size: 100%;
+    
 }
 
 .header {
