@@ -1,5 +1,5 @@
 body {
-    background-image: url("\assets\images\wormz.png");
+    background-image: url("assets/images/wormz.png");
     z-index: -1;
     height: 100%;
     width: 100%;
@@ -8,22 +8,54 @@ body {
 .header {
     background-color: brown;
     color: azure;
+    width: 25%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #gameRules {
     background-color: tan;
     color: green;
+    width: 40%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
 } 
 
 #randomNumber {
     background-color: lawngreen;
+    margin-top: 10px;
+    height: 80px;
+    width: 200px;
+    float: left;
 }
 #winsLosses {
     background-color: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+    height: 60px;
+    width: 80px;
+    float: left;
 }
 #scoreText {
     background-color: blue;
 }
 #totalScore {
     background-color: blue;
+}
+
+#blueCrytsal {
+    clear: left;
+    float: left;
+}
+#pinkCrystal {
+    clear: left;
+    float: left;
+}
+#purpleCrystal {
+    float: left;
+}
+#yellowCrytsal {
+    float: left;
 }
