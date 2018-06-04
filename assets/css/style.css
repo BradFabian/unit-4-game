@@ -5,6 +5,25 @@ body {
     width: 100%;
 }
 
+.header {
+    background-color: brown;
+    color: azure;
+}
+
 #gameRules {
     background-color: tan;
+    color: green;
+} 
+
+#randomNumber {
+    background-color: lawngreen;
+}
+#winsLosses {
+    background-color: aqua;
+}
+#scoreText {
+    background-color: blue;
+}
+#totalScore {
+    background-color: blue;
 }
