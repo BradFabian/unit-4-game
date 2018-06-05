@@ -39,7 +39,7 @@
             function winner() { 
             alert("You won!");
             winCount++; 
-            $('#wincounter').text(winCount);
+            $('#winCounter').text(winCount);
              reset();
             }
             //addes the losses to the lossCount//
