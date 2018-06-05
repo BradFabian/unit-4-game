@@ -50,11 +50,60 @@
            }
 
             //crystal clicks//
-        }
+            $('#blueCrystal').on('click', function(){
+                scoreCount = scoreCount + num1;
+                console.log("New score= " + scoreCount);
+                $('#score').text(scoreCount); 
+                      //sets win/lose conditions
+                    if (scoreCount == gameScore){
+                      winner();
+                    }
+                    else if ( scoreCount > gameScore){
+                      loser();
+                    }   
+              }) 
+              $('#pinkCrystal').on('click', function(){
+                scoreCount = scoreCount + num2;
+                console.log("New score= " + scoreCount);
+                $('#score').text(scoreCount); 
+                      //sets win/lose conditions
+                    if (scoreCount == gameScore){
+                      winner();
+                    }
+                    else if ( scoreCount > gameScore){
+                      loser();
+                    }   
+              }) 
+              $('#yellowCrystal').on('click', function(){
+                scoreCount = scoreCount + num3;
+                console.log("New score= " + scoreCount);
+                $('#score').text(scoreCount); 
+                      //sets win/lose conditions
+                    if (scoreCount == gameScore){
+                      winner();
+                    }
+                    else if ( scoreCount > gameScore){
+                      loser();
+                    }   
+              })
+              $('#purpleCrystal').on('click', function(){
+                scoreCount = scoreCount + num4;
+                console.log("New score= " + scoreCount);
+                $('#score').text(scoreCount); 
+                      //sets win/lose conditions
+                    if (scoreCount == gameScore){
+                      winner();
+                    }
+                    else if ( scoreCount > gameScore){
+                      loser();
+               
+                    }   
+              }); 
+        
 
 
     
-        
+            };
     
         
     
