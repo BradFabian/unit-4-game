@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(156, 118, 118);
-  
+    background-color: grey;
+   /* background-image: url("unit-4-game\assets\images\wormz.png");*/
     z-index: -1;
     background-size: 100%;
     
@@ -24,6 +24,7 @@ body {
 } 
 
 .targetDiv {
+    color:red;
     background-color: lawngreen;
     margin-top: 10px;
     height: 80px;
@@ -31,6 +32,7 @@ body {
     float: left;
 }
 #winsLosses {
+    color:red;
     background-color: aqua;
     margin-top: 10px;
     margin-left: 10px;
@@ -66,12 +68,14 @@ body {
     float: left;
 }
 #scoreText {
+    color: azure;
     clear: both;
     background-color: blue;
     height: 30px;
     width: 210px;
 }
 #totalScore {
+    color:azure;
     background-color: blue;
     margin-top: 10px;
     height: 100px;
