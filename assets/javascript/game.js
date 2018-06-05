@@ -33,6 +33,7 @@
             var num4= Math.floor(Math.random() * ((12-1)+1) + 1); 
             scoreCount = 0
             $('#score').text(scoreCount);
+        }
             //wins and loses functions //
             //adds the wins to the winCount//
             function winner() { 
@@ -103,7 +104,7 @@
 
 
     
-            };
+        
     
         
     
