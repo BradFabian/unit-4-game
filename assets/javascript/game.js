@@ -34,20 +34,20 @@
             scoreCount = 0
             $('#score').text(scoreCount);
             //wins and loses functions //
-            //adds the wins to the userTotal
+            //adds the wins to the winCount//
             function winner() { 
             alert("You won!");
             winCount++; 
             $('#wincounter').text(winCount);
              reset();
             }
-    //addes the losses to the userTotal
-    function loser(){
-    alert ("You lose!");
-      losses++;
-      $('#numberLosses').text(losses);
-      reset()
-    }
+            //addes the losses to the lossCount//
+            function loser(){
+            alert ("You lose!");
+            lossCount++;
+            $('#lossCounter').text(lossCount);
+            reset()
+           }
 
             //crystal clicks//
         }
