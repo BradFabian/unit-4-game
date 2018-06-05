@@ -1,6 +1,6 @@
 body {
-    background-color: grey;
-   /* background-image: url("unit-4-game\assets\images\wormz.png");*/
+   /* background-color: grey;*/
+    background-image: url("../images/wormz.png");
     z-index: -1;
     background-size: 100%;
     
