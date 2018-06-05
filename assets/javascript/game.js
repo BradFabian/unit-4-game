@@ -5,7 +5,7 @@
             console.log(gameScore);
             $("#targetNumber").text(gameScore);
 
-    // Crystals Generate numbers by clicks loop??//
+    // Crystals Generate numbers by clicks//
     
     // Setting up random numbers for each jewel
         // Random number has to be between 1 - 12
@@ -31,8 +31,13 @@
             var num2= Math.floor(Math.random() * ((12-1)+1) + 1); 
             var num3= Math.floor(Math.random() * ((12-1)+1) + 1); 
             var num4= Math.floor(Math.random() * ((12-1)+1) + 1); 
+            scoreCount = 0
+            $('#score').text(scoreCount);
+            //wins and loses functions //
 
+            //crystal clicks//
         }
+
 
     
         
