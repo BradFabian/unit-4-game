@@ -20,7 +20,7 @@
         var winCount = 0;
         var lossCount = 0;
         var scoreCount = 0;
-        // declaring counter wina and loses //
+        // declaring counter wins and loses //
         $('#winCounter').text(winCount);
         $('#lossCounter').text(lossCount);
         //reset counters//
