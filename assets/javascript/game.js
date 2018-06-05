@@ -23,6 +23,16 @@
         // declaring counter wina and loses //
         $('#winCounter').text(winCount);
         $('#lossCounter').text(lossCount);
+        //reset counters//
+        function reset() {
+            gameScore = Math.floor(Math.random() * ((120-19)+1) + 19);
+            $("#targetNumber").text(gameScore);
+            var num1= Math.floor(Math.random() * ((12-1)+1) + 1); 
+            var num2= Math.floor(Math.random() * ((12-1)+1) + 1); 
+            var num3= Math.floor(Math.random() * ((12-1)+1) + 1); 
+            var num4= Math.floor(Math.random() * ((12-1)+1) + 1); 
+
+        }
 
     
         
