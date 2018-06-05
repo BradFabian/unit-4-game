@@ -23,7 +23,7 @@ body {
     padding-bottom: 40px;
 } 
 
-#randomNumber {
+.targetDiv {
     background-color: lawngreen;
     margin-top: 10px;
     height: 80px;
@@ -40,25 +40,29 @@ body {
     float: left;
 }
 
+.crystals {
+    height: 80px;
+    width: 280px;
+}
 
 #blueCrytsal {
    
     
-    float: left;
+    float: right;
 }
 #pinkCrystal {
    
-    clear: right;
+    
     float: left;
 }
 #purpleCrystal {
    
-    clear: right;
+    clear: left;
     float: left;
 }
 #yellowCrytsal {
    
-    clear: right;
+    clear: left;
     float: left;
 }
 #scoreText {
